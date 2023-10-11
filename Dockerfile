@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1.4
-FROM directus/directus:10.6.2
+FROM directus/directus:10.6.3
 USER root
-COPY https://github.com/Stash-Ventures/hybrid-cms-directus/blob/master/extensions.tar.gz /directus
+ADD https://github.com/Stash-Ventures/hybrid-cms-directus/blob/master/extensions.tar.gz /directus
 RUN tar -xzf /directus/extensions.tar.gz \
     && rm /directus/extensions.tar.gz
 RUN corepack enable \
