@@ -2,7 +2,7 @@
 FROM directus/directus:10.6.3
 USER root
 ADD https://github.com/Stash-Ventures/hybrid-cms-directus/blob/master/extensions.tar.gz /directus
-RUN tar -xf /directus/extensions.tar.gz \
+RUN tar -xvzf /directus/extensions.tar.gz \
     && rm /directus/extensions.tar.gz
 RUN corepack enable \
     && corepack prepare pnpm@8.7.6 --activate \
