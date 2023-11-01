@@ -1,0 +1,19 @@
+{
+  "name": "hybrid-cms-directus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pack": "tar -czvf extensions.tar.gz ./extensions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stash-Ventures/hybrid-cms-directus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stash-Ventures/hybrid-cms-directus/issues"
+  },
+  "homepage": "https://github.com/Stash-Ventures/hybrid-cms-directus#readme"
+}
