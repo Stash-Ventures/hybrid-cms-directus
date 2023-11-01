@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.4
-FROM directus/directus:10.6.3
+FROM directus/directus:10.7.1
 USER root
 ADD ./extensions.tar.gz /directus
 # RUN tar -xvzf /directus/extensions.tar.gz \
