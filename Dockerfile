@@ -12,7 +12,7 @@ EXPOSE 8055
 ENV NODE_OPTIONS=--max_old_space_size=8192
 USER node
 
-RUN pnpm install cloudinary @supabase/supabase-js cors express-fileupload form-data form-data-encoder formdata-node 
+RUN pnpm install cloudinary @supabase/supabase-js cors express-fileupload form-data form-data-encoder formdata-node directus-extension-key-value-interface
 
 CMD : \
     && node /directus/cli.js bootstrap \
