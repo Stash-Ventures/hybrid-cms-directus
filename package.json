@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pack": "tar -czvf extensions.tar.gz ./extensions"
+    "pack": "tar -czvf extensions.tar.gz ./node_modules"
   },
   "repository": {
     "type": "git",
