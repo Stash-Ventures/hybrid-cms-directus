@@ -8,7 +8,7 @@
 	],
 	"directus:extension": {
 		"type": "interface",
-		"path": "dist/index.cjs",
+		"path": "dist/index.js",
 		"source": "src/index.ts",
 		"host": "^9.21.0"
 	},
