@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Stash-Ventures/hybrid-cms-directus/issues"
   },
-  "homepage": "https://github.com/Stash-Ventures/hybrid-cms-directus#readme"
+  "homepage": "https://github.com/Stash-Ventures/hybrid-cms-directus#readme",
+  "dependencies": {
+    "directus-extension-key-value-interface": "^1.2.0"
+  }
 }
